@@ -110,6 +110,7 @@ textarea{
   position:relative;
 }
 
+
 }
 
 
@@ -190,18 +191,18 @@ h1 {
 }
 
 .contact, .contact .content, .contact .content .form{
-  width:300px;
+  width:100%;
 }
 
 .contact .content .contact-text{
   padding-left:0px;
-  width:300px;
+  /*width:300px;*/
   text-align:center;
   margin-top:60px;
 }
 
 .contact .content .contact-text {
-  width:275px;
+  /*width:275px;*/
 }
 
 .contact .content .form .column, .contact .content .form .column-3{
@@ -229,6 +230,9 @@ textarea{
   width:420px;
 }
 
+.social-icons li{
+  display: block;
+}
 
 }
 
@@ -296,7 +300,7 @@ textarea{
 }
 
 .contact .content {
-  width:700px
+  width:100%;
 }
 
 .footer{
@@ -316,7 +320,7 @@ textarea{
 }
 
 .contact .content .contact-text {
-  width:275px;
+  width:100%;
 }
 
 .contact .content .form .column, .contact .content .form .column-3{

@@ -67,7 +67,7 @@ h1 {
 }
 
 .contact, .contact .content, .contact .content .form{
-  width:300px;
+  width:100%;
 }
 
 .contact .content .contact-text{
@@ -86,7 +86,7 @@ textarea{
 }
 
 .contact .content .contact-text {
-  width:275px;
+  width:100%;
 }
 
 .contact .content .form .column, .contact .content .form .column-3{
@@ -109,7 +109,9 @@ textarea{
 .footer{
   position:relative;
 }
-
+.social-icons li{
+  display: block;
+}
 
 }
 
@@ -330,6 +332,9 @@ textarea{
 .contact .content .form .column-2{
   width:450px;
   padding-left:0;
+}
+.social-icons li{
+  display: block;
 }
 
 
